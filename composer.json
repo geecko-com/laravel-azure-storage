@@ -8,7 +8,8 @@
     "azure"
   ],
   "require": {
-    "league/flysystem-azure-blob-storage": "dev-master"
+    "league/flysystem-azure-blob-storage": "^3.0",
+    "laravel/framework": "^9.0"
   },
   "require-dev": {
     "mockery/mockery": "^1.4",
@@ -19,12 +20,6 @@
     "squizlabs/php_codesniffer": "^3.4",
     "vimeo/psalm": "^4.19"
   },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/geecko-com/flysystem-azure-blob-storage.git"
-    }
-  ],
   "license": "MIT",
   "authors": [
     {
